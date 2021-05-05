@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+                <title>NES Gaming</title>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css'/>
+                <link rel='shortcut icon' href='../img/favicon.png' type='image/x-icon'/ >
+</head>
+<body>
+		<header class="header-home">
+    <a href="../index.html"><div class="logo">
+      <img src="../img/logo-main.png">
+    </div>
+  </a>
+  </header>
+	<div class="main">
+		<div class="header" >
+			<h1>Login or Create an Account</h1>
+		</div>
+		<p>Login or Register to enjoy your game. Go on its free! </p>
+			<form action="../Register.jsp" method="post">
+				<ul class="left-form">
+					<h2>New Account:</h2>
+					<li>
+						<input type="text" name="username"   placeholder="Username" required/>
+						<div class="clear"> </div>
+					</li> 
+					<li>
+						<input type="email" name="email"  placeholder="Email" required/>
+						<div class="clear"> </div>
+					</li> 
+					<li>
+						<input type="password" name="password"  placeholder="Password" required/>
+						<div class="clear"> </div>
+					</li> 
+					<li>
+						<input type="password"   placeholder="Password" required/>
+						<div class="clear"> </div>
+					</li> 
+					<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Please inform me of upcoming  games and updates.</label>
+					<input type="submit" onclick="myFunction()" value="Create Account">
+						<div class="clear"> </div>
+				</ul>
+				</form>
+				<form action="../Login.jsp" method="post">
+				<ul class="right-form">
+					<h3>Login:</h3>
+					<div>
+						<li><input type="text" name="usernamel"  placeholder="Username" required/></li>
+						<li> <input type="password" name="passwordl" placeholder="Password" required/></li>
+						<h4 style="color: red;" >Invalid username/password</h4>
+							<input type="submit" onclick="myFunction()" value="Login" >
+					</div>
+					<div class="clear"> </div>
+				</ul>
+				<div class="clear"> </div>
+					
+			</form>
+			
+
+	
+</body>
+</html>
